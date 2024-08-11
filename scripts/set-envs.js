@@ -7,7 +7,8 @@ const targetPath = `./src/environments/environment.ts`;
 
 const envConfigFile = `
 export const environment = {
-  mapbox_key: "${process.env.MAPBOX_KEY}"
+  mapbox_key: "${process.env.MAPBOX_KEY}",
+  session_token: "${process.env.SESSION_TOKEN}"
 };
 `;
 
